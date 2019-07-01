@@ -1,0 +1,164 @@
+{% extends 'shop/index.html' %}
+{%block body%}
+    <br>
+
+
+<center><h4>Post your AD</h4></center>
+    <br>
+
+  <div class="container-fluid " > <div class="btn-group dropdown">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Cars
+  </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2" "container-fluid">
+    <button class="dropdown-item" type="button">Cars</button>
+    <button class="dropdown-item" type="button">Spare Parts</button>
+    <button class="dropdown-item" type="button">Commercial Vehicles</button>
+        <button class="dropdown-item" type="button">Other vehicles Vehicles</button>
+  </div>
+</div>
+
+       <div class="btn-group dropdown">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Mobiles
+  </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Mobile Phones</button>
+    <button class="dropdown-item" type="button">Accesories</button>
+    <button class="dropdown-item" type="button">Tablets</button>
+  </div>
+</div>
+        <div class="btn-group dropdown">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Fashion
+  </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Men</button>
+    <button class="dropdown-item" type="button">Women</button>
+    <button class="dropdown-item" type="button">Child</button>
+  </div>
+</div>
+    <div class="btn-group dropdown">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Books & Sports
+  </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2" "container-fluid">
+    <button class="dropdown-item" type="button">Books</button>
+    <button class="dropdown-item" type="button">Sports Equipment</button>
+    <button class="dropdown-item" type="button">Other Hobbies</button>
+
+  </div>
+</div>
+
+       <div class="btn-group dropdown">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Electronics & Appliances
+  </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">TV's</button>
+    <button class="dropdown-item" type="button">Computers & Laptops</button>
+    <button class="dropdown-item" type="button">AC's</button>
+        <button class="dropdown-item" type="button">Washing Machine</button>
+        <button class="dropdown-item" type="button">Others</button>
+  </div>
+</div>
+        <div class="btn-group dropdown">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Bikes
+  </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Motorcycles</button>
+    <button class="dropdown-item" type="button">Scooters</button>
+    <button class="dropdown-item" type="button">Spare Parts</button>
+  </div>
+</div>
+    </div>
+    <br>
+    <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>
+<br>
+    <h4>Include Some Details</h4>
+    <form>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons" >
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> Full-Time
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Part-Time
+  </label>
+
+</div>
+
+<br><br>
+
+    <div class="form-group col-md-6">
+      <label >Add Title</label>
+      <input type="text" class="form-control" id="title" placeholder="Add title">
+    </div>
+
+  <div class="form-group col-md-6">
+      <label >Add Desc</label>
+      <input type="text" class="form-control" id="Desc" placeholder="Add Desc">
+    </div>
+
+  <div class="form-row mx-2">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+        <div class="form-group col-md-2">
+      <label for="inputZip">Price</label>
+      <input type="text" class="form-control" id="price">
+    </div>
+  </div>
+  <h4>Review Your Details</h4>
+         <div class="form-group col-md-4">
+      <label >Name</label>
+      <input type="text" class="form-control" id="name" >
+    </div>
+
+ <div class="row mx-1"> <div class="form-group col-md-4">
+      <label >Email</label>
+      <input type="text" class="form-control" id="email">
+    </div>
+        <div class="form-group col-md-4">
+      <label >Phone</label>
+      <input type="text" class="form-control" id="phone">
+    </div>
+        </div>
+  <button type="submit" class="btn btn-primary mx-3">Post Now</button></div>
+</form>
+
+
+
+
+
+
+{%endblock%}
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
